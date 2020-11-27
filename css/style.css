@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif; 
+}
+
+.header{
+    padding: 0px;
+}
+.logo{
+    height: 80px;
+    width: auto;
+}
+
+.main-div{
+    height: 100vh;
+    width: 100%;
+   background: linear-gradient(185deg,  #FF00FF 60%, 	#D2093C 40% );
+}
+
+.image-center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+h1{
+    font-size: 30px;
+    color: #FFFEFE;
+    text-transform: uppercase;
+}
+
+.two-div{
+    background-color: #EDEDED;
+   padding: 40px;
+   padding-top: 60px;
+   padding-bottom: 60px;
+    
+}
+.contain-flex{
+    display: flex;
+}
+.two-left-section{
+    display: block
+}
+.two-right-section{
+    width: 30%;
+    margin-left: 30px;
+}
+.icon{
+    height: 65px;
+    width: auto;
+}
+
+.two-title{
+    font-size: 25px;
+    font-weight: 700;
+    font-size: #242424;
+    line-height: 35px;
+}
+.two-desciption-div{
+    width: 50%;
+    margin-top: 30px;
+   
+}
+.two-description{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* ----------------------Second section---------------------- */
+.gap-middle{
+    margin-top: 80px;
+}
+
+ .second-section{
+     height: 100vh;
+     width: 100%;
+     background: linear-gradient(190deg,  #D2D655 60%, 	#333333 40% );
+}
+
+.second-top{
+    display: flex;
+    justify-content: center;
+}
+.second-header{
+    width: 40%;
+    padding-top: 6%;
+    text-align: center;
+
+}
+.second-title{
+     font-size: 30px;
+    font-weight: 700;
+    font-size: #242424;
+    line-height: 40px;
+}
+
+.button {
+  background-color: #2C3E1C; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 18px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.secon-two-section{
+    padding: 40px;
+    margin-top: 8%;
+     color: #FFFFFF;
+}
+.sml-descrption{
+    font-weight: 12px;
+   
+
+}
+.ref-text{
+    font-weight: 16px;
+    font-weight: 600;
+    padding-top: 40px;
+    
+}
+.list{
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.list > li{
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+/* -----------------------footer section---------------- */
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   height: 80px;
+   align-items: center;
+   position: absolute;
+ 
+}
+
+.footer-left{
+   font-size: 14px;
+   padding-left: 20px;
+}
+.logo-footer{
+    height: 60px;
+    width: auto;
+}
+
+
+
+/* ------------------MOBILE RESPONSIVE----------------- */
+@media only screen and (max-width: 500px) {
+
+    .logo{
+    height: 60px;
+    width: auto;
+}
+.main-div{
+    height: 60vh;
+    width: 100%;
+   background: linear-gradient(185deg,  #FF00FF 60%, 	#D2093C 40% );
+}
+.two-div{
+    background-color: #EDEDED;
+   padding: 20px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+    
+}
+.two-title{
+    font-size: 30px;
+    font-weight: 700;
+    font-size: #242424;
+    line-height: 35px;
+}
+.two-right-section{
+    width: 100%;
+    margin-left: 0px;
+}
+.two-desciption-div{
+    width: 100%;
+    margin-top: 30px;
+   
+}
+.two-left-section{
+    display: none;
+}
+
+/* ----------------------Second section---------------------- */
+   
+.second-section{
+     height: 90vh;
+     width: 100%;
+     background: linear-gradient(190deg,  #D2D655 60%, 	#333333 40% );
+}
+    .second-header{
+    width: 90%;
+    padding-top: 6%;
+    text-align: center;
+
+}
+.secon-two-section{
+    padding: 20px;
+    margin-top: 15%;
+     color: #FFFFFF;
+}
+.ref-text{
+    font-weight: 16px;
+    font-weight: 600;
+    padding-top: 30px;
+    
+}
+
+.list > li{
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+  
+}
